@@ -18,6 +18,7 @@ class CenterForm(QMainWindow):
     def center(self):
         # 获取屏幕坐标系
         screen = QDesktopWidget().screenGeometry()
+        print(screen)
         # 获取窗口坐标系
         size = self.geometry()
         left = int((screen.width() - size.width()) / 2)
