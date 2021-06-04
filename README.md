@@ -12,3 +12,16 @@ screen = QDesktopWidget().screenGeometry()
 screen.width()  # 屏幕宽度
 screen.height() # 屏幕高度
 ```
+## ALabel控件
+```
+setAlignment(): 设置文本的对齐方式
+setIndent(): 设置文本缩进
+text(): 获取文本内容
+setBuddy(): 设置伙伴关系
+setText(): 设置文本内容
+selectedText(): 返回所选的字符
+setWordWrap(): 设置是否允许换行
+```
+###### 常用的事件
+1. 当鼠标划过控件时触发(进入触发一次，出去触发一次)：linkHovered
+2. 当鼠标单击控件时触发：linkActivated
