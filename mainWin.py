@@ -14,6 +14,8 @@ class MainWin(QMainWindow):
         # 设置状态栏,并展示只存在5秒的消息
         self.status = self.statusBar()
         self.status.showMessage('只存在5秒的消息。', 5000)
+        # 设置窗口图标只在windows中生效
+        self.setWindowIcon(QIcon('img/qt.ico'))
 
 
 if __name__ == '__main__':
