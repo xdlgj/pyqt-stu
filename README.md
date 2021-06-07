@@ -25,3 +25,9 @@ setWordWrap(): 设置是否允许换行
 ###### 常用的事件
 1. 当鼠标划过控件时触发(进入触发一次，出去触发一次)：linkHovered
 2. 当鼠标单击控件时触发：linkActivated
+## QLineEdit控件
+###EchoModel(回显模式)
+1.Normal:正常显示
+2.NoEcho：不显示
+3.Password：隐藏值
+4.PasswordEchoOnEdit
