@@ -31,7 +31,10 @@ setWordWrap(): 设置是否允许换行
 2. NoEcho：不显示
 3. Password：隐藏值
 4. PasswordEchoOnEdit: 当失去焦点时以密码形式显示
-### 校验器
+### 校验器(setInputMask)
 1. QIntValidator
 2. QDoubleValidator
 3. QRegExpValidator
+### 掩码
+掩码由掩码字符与分隔符字符串组成，后面可以跟一个分号和空白字符，空白字符在编辑后会从文本删除的 
+![mask](./img/mask.png)
